@@ -1,4 +1,4 @@
-# Notes ESLint & Prettier
+# Notes ESLint & Prettier - Installing
 Updated: 7-4-2021
 
 ## Resources
