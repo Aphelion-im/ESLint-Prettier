@@ -2,7 +2,7 @@
 Updated: 6-4-2021
 
 ## Resources
-* [VSCode - ESLint, Prettier & Airbnb Setup](https://gist.github.com/bradtraversy/aab26d1e8983d9f8d79be1a9ca894ab4)
+* [VSCode - ESLint, Prettier & Airbnb Setup by Brad Traversy](https://gist.github.com/bradtraversy/aab26d1e8983d9f8d79be1a9ca894ab4)
 * [Video: VSCode ESLint, Prettier & Airbnb Style Guide Setup](https://youtu.be/SydnKbGc7W8)
 * [Prettier configuration](https://prettier.io/docs/en/configuration.html)
 
@@ -12,13 +12,14 @@ Updated: 6-4-2021
 
 
 ## Installing ESLint & Prettier
-Install ESLint: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
-Installer VSCode: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+* [Install ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+* [Installer VSCode](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
-<strong>VSCode settings:</strong>
-* Format on save on.
-* Prettier: Single quotes on.
-* Command Line/Bash:
+## VSCode settings
+* Format on save: on.
+* Prettier: Single quotes: on.
+
+## Command Line/Bash
  ```bash
 npm init -y
 ```
@@ -38,21 +39,7 @@ npm i -g eslint
 eslint --init
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### .prettierrc configuration:
+## .prettierrc configuration:
 ```json
 {
   "trailingComma": "none",
@@ -64,7 +51,7 @@ eslint --init
   "htmlWhitespaceSensitivity": "css"
 }
 ```
-### .eslintrc.json configuration:
+## .eslintrc.json configuration:
 ```json
 {
     "extends": ["airbnb", "prettier", "plugin:node/recommended"],
