@@ -11,7 +11,7 @@ Updated: 7-4-2021
 * [no-undef message ESLint](https://medium.com/@jeryldev/a-beginners-story-how-to-setup-eslint-in-a-visual-studio-code-project-28b379a33cdb)
 
 
-## Installing ESLint & Prettier
+## Installing ESLint & Prettier Visual Studio Code extensions
 * [Install ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 * [Installer VSCode](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
