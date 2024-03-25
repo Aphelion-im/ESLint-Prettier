@@ -4,6 +4,7 @@ Updated: 8-4-2021
 ## Resources
 * [VSCode - ESLint, Prettier & Airbnb Setup by Brad Traversy](https://gist.github.com/bradtraversy/aab26d1e8983d9f8d79be1a9ca894ab4)
 * [Video: VSCode ESLint, Prettier & Airbnb Style Guide Setup](https://youtu.be/SydnKbGc7W8)
+* [Video: Colt Steele: Improve Your Code With ESLint + VsCode + Airbnb Styleguide](https://www.youtube.com/watch?v=mfGkKlMDfwQ)
 * [Prettier configuration](https://prettier.io/docs/en/configuration.html)
 
 ## Problem solving
