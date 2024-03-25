@@ -1,5 +1,5 @@
 # Notes ESLint & Prettier - Installing
-Updated: 8-4-2021
+Updated: 25-3-2024
 
 ## Resources
 * [VSCode - ESLint, Prettier & Airbnb Setup by Brad Traversy](https://gist.github.com/bradtraversy/aab26d1e8983d9f8d79be1a9ca894ab4)
