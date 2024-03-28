@@ -1,46 +1,60 @@
-# Notes ESLint & Prettier - Installing
-Updated: 25-3-2024
+# Brad Traversy's VSCode ESLint, Prettier & Airbnb Style Guide Setup
+Updated: 28-3-2024
 
 ## Resources
-* [VSCode - ESLint, Prettier & Airbnb Setup by Brad Traversy](https://gist.github.com/bradtraversy/aab26d1e8983d9f8d79be1a9ca894ab4)
 * [Video: VSCode ESLint, Prettier & Airbnb Style Guide Setup](https://youtu.be/SydnKbGc7W8)
-* [Video: Colt Steele: Improve Your Code With ESLint + VsCode + Airbnb Styleguide](https://www.youtube.com/watch?v=mfGkKlMDfwQ)
-* [Prettier configuration](https://prettier.io/docs/en/configuration.html)
 
 ## Problem solving
 * [Why do I keep getting Delete 'cr' [prettier/prettier]?](https://stackoverflow.com/questions/53516594/why-do-i-keep-getting-delete-cr-prettier-prettier)
 * [no-undef message ESLint](https://medium.com/@jeryldev/a-beginners-story-how-to-setup-eslint-in-a-visual-studio-code-project-28b379a33cdb)
 
+## Roadmap
+### Installing ESLint & Prettier Visual Studio Code extensions
+__Step 1__: 
 
-## Installing ESLint & Prettier Visual Studio Code extensions
-* [Install ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-* [Installer VSCode](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+[Install ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
-## VSCode settings
-* Format on save: on.
-* Prettier: Single quotes: on.
+__Step 2__: 
 
-## Command Line/Bash
- ```bash
+[Install Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+
+### VSCode settings
+__Step 3__: 
+
+Format on save: on.
+
+__Step 4__: 
+
+Prettier: Single quotes: on.
+
+### Command Line/Bash
+__Step 5__:
+```bash
 npm init -y
 ```
+__Step 6__:
  ```bash
 npm i -D eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-node eslint-config-node
 ```
+__Step 7__:
  ```bash
 npx install-peerdeps --dev eslint-config-airbnb
 ```
+__Step 8__: (See .prettierrc configuration below. Copy-paste into this file)
  ```bash
 touch .prettierrc
 ```
+__Step 9__:
  ```bash
 npm i -g eslint
 ```
+__Step 10__:
  ```bash
 eslint --init
 ```
 
-## .prettierrc configuration:
+### .prettierrc configuration:
+__Step 11__: (Copy-paste into .prettierrc file)
 ```json
 {
   "trailingComma": "none",
@@ -52,7 +66,8 @@ eslint --init
   "htmlWhitespaceSensitivity": "css"
 }
 ```
-## .eslintrc.json configuration:
+### .eslintrc.json configuration:
+__Step 12__: (Copy-paste into .eslintrc.json file)
 ```json
 {
     "extends": ["airbnb", "prettier", "plugin:node/recommended"],
